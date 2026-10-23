@@ -1,0 +1,17 @@
+{
+  "id": "0ac318cf8e33485e8a2172a2764c5b67",
+  "workflow_id": "665cb8e42dd2482fad0aafb1b94fe2ee",
+  "workflow": "Playwright Browser Smoke Test",
+  "workflow_version": 1,
+  "status": "failed",
+  "trigger_type": "manual",
+  "input_data": {},
+  "created_at": "2026-10-23T02:37:45.709352+00:00",
+  "started_at": "2026-10-23T02:37:45.709352+00:00",
+  "finished_at": "2026-10-23T02:38:30.623262+00:00",
+  "steps_completed": 2,
+  "total_steps": 4,
+  "error_message": "Locator.inner_text: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"h1\").first\n",
+  "error": "Locator.inner_text: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"h1\").first\n",
+  "variables": {}
+}

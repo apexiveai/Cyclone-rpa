@@ -1,0 +1,6 @@
+{"level": "INFO", "message": "Workflow execution started", "timestamp": "2026-10-22T18:49:29.767349+00:00"}
+{"level": "INFO", "message": "Starting: Manual Trigger", "step_id": "trigger-1", "timestamp": "2026-10-22T18:49:29.767349+00:00"}
+{"level": "SUCCESS", "message": "Completed: Manual Trigger", "step_id": "trigger-1", "step_name": "Manual Trigger", "result": {"trigger": "manual"}, "timestamp": "2026-10-22T18:49:29.780196+00:00"}
+{"level": "INFO", "message": "Starting: Write Test Log", "step_id": "log-1", "timestamp": "2026-10-22T18:49:29.780196+00:00"}
+{"level": "SUCCESS", "message": "Completed: Write Test Log", "step_id": "log-1", "step_name": "Write Test Log", "result": {"logged": "Cyclone runtime is working"}, "timestamp": "2026-10-22T18:49:29.780196+00:00"}
+{"level": "INFO", "message": "Execution ended: completed", "timestamp": "2026-10-22T18:49:29.780196+00:00"}

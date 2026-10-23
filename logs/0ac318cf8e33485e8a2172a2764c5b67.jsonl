@@ -1,0 +1,8 @@
+{"level": "INFO", "message": "Workflow execution started", "timestamp": "2026-10-23T02:37:45.709352+00:00"}
+{"level": "INFO", "message": "Starting: Manual Trigger", "timestamp": "2026-10-23T02:37:45.725480+00:00", "step_id": "trigger-1", "step_type": "trigger"}
+{"level": "SUCCESS", "message": "Completed: Manual Trigger", "timestamp": "2026-10-23T02:37:45.725480+00:00", "step_id": "trigger-1", "step_name": "Manual Trigger", "result": {"trigger": "manual"}}
+{"level": "INFO", "message": "Starting: Open Example", "timestamp": "2026-10-23T02:37:45.725480+00:00", "step_id": "browser-1", "step_type": "browser"}
+{"level": "SUCCESS", "message": "Completed: Open Example", "timestamp": "2026-10-23T02:38:22.684177+00:00", "step_id": "browser-1", "step_name": "Open Example", "result": {"action": "goto", "url": "https://example.com/", "status": 200, "title": "Example Domain"}}
+{"level": "INFO", "message": "Starting: Extract Heading", "timestamp": "2026-10-23T02:38:22.684177+00:00", "step_id": "browser-2", "step_type": "browser"}
+{"level": "ERROR", "message": "Locator.inner_text: Target page, context or browser has been closed\nCall log:\n  - waiting for locator(\"h1\").first\n", "timestamp": "2026-10-23T02:38:30.619924+00:00"}
+{"level": "INFO", "message": "Execution ended: failed", "timestamp": "2026-10-23T02:38:30.621208+00:00"}
